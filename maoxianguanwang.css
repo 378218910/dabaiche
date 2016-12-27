@@ -1,0 +1,303 @@
+
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	line-height:1;
+	font-size:12px;
+}
+.clear
+{
+	clear:both;
+}
+.top
+{
+	border-top:1px solid #E4E7EA;
+	border-bottom:1px solid #E4E7EA;
+}
+.top .topNav
+{
+	width:970px;
+	margin:0 auto;
+	height:40px;
+}
+.top .topNav .left
+{
+	float:left;
+}
+.top .topNav .left .logo
+{
+	height:40px;
+	width:223px;
+	background:url("images/ost-bg.png") no-repeat 0px -38px;
+	cursor:pointer;
+	float:left;
+	position:relative;
+	z-index:3
+}
+.top .topNav .left .banner
+{
+	float:left;
+	position:relative
+}
+.top .topNav .left .banner .bigbanner
+{
+	position:absolute;
+	top:0px;
+	left:-223px;
+	display:none;
+	z-index:2
+}
+.top .topNav .left .banner:hover .bigbanner{display:block}
+.top .topNav .right
+{
+	float:right;
+	position:relative;
+	z-index:3
+}
+.top .topNav .right>a
+{
+	float:left;
+	line-height:40px;
+	padding-right:18px;
+	color:#464646;
+}
+.top .topNav .right .icon
+{
+	width:11px;
+	height:11px;
+	background:url("images/ost-bg.png") no-repeat -150px -134px;
+	float:left;
+	margin-top:-5px;
+	position:absolute;
+	top:50%;
+	right:3px;
+	cursor:pointer;
+}
+.top .topNav .right .innerNav
+{
+	width:698px;
+	height:456px;
+	border:1px solid #CCCCCC;
+	position:absolute;
+	right:-2px;
+	top:40px;
+	display:none;
+	background: #FFFFFF;
+}
+.top .topNav .right>a:link{text-decoration:none}
+.top .topNav .right>a:hover{color:#FF4E00}
+.top .topNav .right:hover>a{color:#FF4E00}
+.top .topNav .right:hover .icon
+{
+	background:url("images/ost-bg.png") no-repeat -170px -134px;
+}
+.top .topNav .right:hover .innerNav{display:block}
+.main
+{
+	border-top:1px solid #C9C9C9;
+	margin:1px 2px 3px;
+	background:url("images/tu1.jpg") no-repeat center;
+}
+.main ._main
+{
+	width:1200px;
+	height:1492px;
+	background:url("images/tu24.jpg") no-repeat 0 0;
+	margin:0 auto;
+	position:relative;
+}
+.main ._main .logo
+{
+	width:226px;
+	height:130px;
+	background:url("images/logo.png") no-repeat 0px 0px;
+	position:absolute;
+	top:15px;
+	left:0px;
+}
+.main ._main .nav
+{
+	position:absolute;
+	left:400px;
+	top:42px;
+}
+.main ._main .nav a
+{
+	font-size:14px;
+	font-weight:bold;
+	padding:0 17px;
+	color:#FFFFFF;
+}
+.main ._main .nav span
+{
+	line-height:8px;
+	color:#5B98E1;
+}
+.main ._main .logoRight
+{
+	width:710px;
+	height:346px;
+	position:absolute;
+	right:-255px;
+	top:31px;
+	background:url("images/tu1.png") no-repeat 0px -450px;
+}
+.main ._main .logoLeft
+{
+	width:710px;
+	height:322px;
+	background:url("images/tu1.png") no-repeat 0px -80px;
+	position:absolute;
+	left:-92px;
+	top:87px;
+}
+.main ._main .banner
+{
+	width:577px;
+	height:433px;
+	position:absolute;
+	left:620px;
+	top:266px;
+}
+.main ._main .banner>a
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-position:center;
+	background-size:100% 100%;
+	filter:alpha(opacity=0);
+	opacity:0;
+}
+.main ._main .banner .btn
+{
+	position:relative;
+	left:42px;
+	top:405px;
+	width:84px;
+	height:18px;
+	z-index:2;
+}
+.main ._main .banner .btn a
+{
+	width:9px;
+	height:9px;
+	border-radius:50%;
+	float:left;
+	background:#347FB9;
+	margin:4px 2px;
+	cursor:pointer;
+}
+.main ._main .banner  .current
+{
+	filter:alpha(opacity=100);
+	opacity:1;
+	transition:opacity 1s;
+}
+.main ._main .banner .btn .current1
+{
+	width:28px;
+	background:#F8DC11;
+	transition:width 1s;
+	border-radius:47px;
+}
+.main ._main .banner1
+{
+	width:577px;
+	height:288px;
+	position:absolute;
+	left:620px;
+	top:717px;
+}
+.main ._main .banner1 span
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-position:center;
+	background-size:100% 100%;
+	cursor:pointer;
+}
+.main ._main .banner1 a
+{
+	width:115.4px;
+	height:36px;
+	position:absolute;
+	top:0px;
+	z-index:3;
+	font-size:16px;
+	font-weight:bold;
+	color:#8C6025;
+	line-height:36px;
+	text-align:center;
+}
+.main ._main .banner1 a:link{text-decoration:none}
+.main ._main .banner1 .current
+{
+	background:#CC503D;
+	color:#FFFFFF;
+}
+.main ._main .banner1 .current1
+{
+	z-index:2;
+
+}
+.main ._main .banner2
+{
+	position:absolute;
+	left:620px;
+	top:1005px;
+}
+.main ._main .banner2 .left
+{
+	width:289px;
+	height:288px;
+	background:url("images/tu11.jpg") no-repeat center;
+	float:left;
+	cursor:pointer;
+}
+.main ._main .banner2 .right
+{
+	width:289px;
+	height:288px;
+	background:url("images/tu4.jpg") no-repeat center;
+	float:left;
+	cursor:pointer;
+
+}
+.main ._main .sidebar
+{
+	position:relative;
+	top:409px;
+	left:0px;
+}
+.main ._main .sidebar .sidebarLeft
+{
+	width:289px;
+	float:left;
+}
+.main ._main .sidebar .sidebarLeft .top
+{
+	background:#FECF0F
+}
+.main ._main .sidebar .sidebarLeft .top div div
+{
+	width:289px;
+	height:97px;
+	position:absolute;
+	z-index:2;
+	filter: alpha(opacity=50);
+	opacity:0.5;
+	display:none;
+}
+.main ._main .sidebar .sidebarRight
+{
+	width:335px;
+	float:left;
+}
+.main ._main .sidebar .sidebarLeft .top div:hover div
+{
+	display:block;
+}
